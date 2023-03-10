@@ -1,27 +1,16 @@
-
-/* Your CSS Code here. */
-body{
-	margin:none;
+.holder{
+	display:flex;
+	justify-content:space-between
 }
-.container{
-
-	display: flex;
-	flex-flow: row wrap;
-	/*border: 10px solid red;*/
-	padding:20px;
-	font-size:50px;
-	justify-content:space-between;
-}
-.item{
+.data{
 	width:100px;
 	height:100px;
 	padding:20px;
-	border:1px solid blue;
 }
-.item1{
+.data{
 	background-color:green
 	}
-.item2{
+.i{
 	background-color:red
 }
 .item3{
